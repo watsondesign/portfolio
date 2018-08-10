@@ -8,7 +8,11 @@
   <meta name="description" content="DESCRIPTION">
   <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="scripts/script.js"></script>
+
+  <script type="text/javascript" src="js/jquery.chocolat.js"></script>
+  <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+
+  <script src="scripts/index.js"></script>
 
   <!--[if lt IE 9]>
       <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -17,29 +21,8 @@
 
 <body>
 
-  <!-- <div class="preview">
-
-  </div> -->
-  <div class="back-container">
-
-      <!-- <div class="close one">
-        <h2>close</h2>
-      </div>
-
-      <div class="middle">
-      </div>
-
-      <div class="close three">
-        <h2>close</h2>
-      </div> -->
-
+  <div id="loaded-page">
   </div>
-
-  <!-- <header class="header">
-    <div class="terminal">
-      <h3>About</h3>
-    </div>
-  </header> -->
 
   <div class="page">
     <!-- <div class="back-container">
@@ -56,7 +39,7 @@
 
           <div class="center">
             <ul>
-              <li>gladwell series</li>
+              <li class="gladwell">gladwell series</li>
               <li>frame magazine</li>
               <li>arsia</li>
             </ul>
@@ -76,8 +59,8 @@
 
           <div class="center">
             <ul>
-              <li>ÆOLIA</li>
-              <li>EET</li>
+              <li>æolia</li>
+              <li>eet</li>
             </ul>
           </div>
 
@@ -129,8 +112,8 @@
 
           <div class="center">
             <ul>
-              <li>Air & Space</li>
-              <li>MV Agusta</li>
+              <li>air & space</li>
+              <li>mv agusta</li>
             </ul>
           </div>
 
@@ -150,6 +133,7 @@
     <div class="sizing">
       <div class="back image">
         <img />
+        <video loop autoplay muted/>
         <!-- <img src="images/frame_magazine.png" style='opacity:1;'/> -->
         <!-- <div>
           <img/>
@@ -163,9 +147,8 @@
       <div class="front image">
         <!-- <img src="images/gladwell_series.png" style='opacity:1;'/> -->
         <img/>
-        <!-- <div>
-          <img/>
-        </div> -->
+        <video loop autoplay muted/>
+
       </div>
     </div>
   </div>
